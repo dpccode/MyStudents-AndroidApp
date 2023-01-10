@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".AddNewStudent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:text="Όνομαμετεπωνυμο"/>
+
+    <EditText
+        android:id="@+id/create_student_name"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:backgroundTint="@color/black"
+        android:hint="Όνομαμετεπωνυμο"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:text="Τηλέφωνο" />
+
+    <EditText
+        android:id="@+id/create_student_phone"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:hint="Τηλέφωνο"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:backgroundTint="@color/black"
+        android:inputType="phone"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:text="Τάξη"/>
+
+    <Spinner
+        android:id="@+id/classes_spinner"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:text="Κόστος ανά ώρα"/>
+
+    <EditText
+        android:id="@+id/create_student_cost_per_hour"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:hint="Κόστος ανά ώρα"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:backgroundTint="@color/black"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/create_student_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/design_default_color_primary_dark"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/white"
+        android:text="Εισαγωγή"/>
+
+</LinearLayout>

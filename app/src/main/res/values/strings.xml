@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">StudentsApp</string>
+
+    <string-array name="classes">
+        <item>Α Δημοτικού</item>
+        <item>Β Δημοτικού</item>
+        <item>Γ Δημοτικού</item>
+        <item>Δ Δημοτικού</item>
+        <item>Ε Δημοτικού</item>
+        <item>ΣΤ Δημοτικού</item>
+        <item>Α Γυμνασίου</item>
+        <item>Β Γυμνασίου</item>
+        <item>Γ Γυμνασίου</item>
+        <item>Α Λυκείου</item>
+        <item>Β Λυκείου</item>
+        <item>Γ Λυκείου</item>
+    </string-array>
+
+
+    <string-array name="hours">
+        <item>1 Ωρα</item>
+        <item>1.5 Ωρα</item>
+        <item>2 Ωρες</item>
+        <item>2.5 Ωρες</item>
+        <item>3 Ωρες</item>
+        <item>0.5 Ωρα</item>
+    </string-array>
+
+</resources>

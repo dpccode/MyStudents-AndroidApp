@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/history_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:padding="4dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+
+
+            <TextView
+                android:id="@+id/history_item_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ημερομηνία: "/>
+
+            <TextView
+                android:id="@+id/history_item_hours"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ώρες: "/>
+
+            <TextView
+                android:id="@+id/history_item_cost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Κέρδος: "/>
+
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/history_item_delete"
+            android:layout_width="fill_parent"
+            android:layout_weight="9"
+            android:layout_height="40dp"
+            android:layout_gravity="right|center"
+            android:text="Button"
+            android:background="@drawable/bin1"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/design_default_color_primary_dark" />
+
+
+
+</LinearLayout>
